@@ -1,0 +1,13 @@
+Variable,Description,Measurement Type,Example Values,Potential Role
+Product_Price,Price of product in store,Continuous,"14.23, 16.75",Predictor 
+Promotion,Is there a promotion on this product?,Binary (0/1),"0, 1",Predictor 
+Product_Category,Product type,Nominal (Categorical),"Food, Clothing, Electronics",Predictor 
+Store_Location,Type/location of store,Nominal (Categorical),"Rural, Urban, Suburban",Predictor 
+Shelf_Space,"Physical shelf space (sq. ft/meters, etc.)",Continuous,"4.54, 23.27",Predictor 
+Competitor_Price,Price for comparable product at competitor,Continuous,"13.21, 14.86",Predictor 
+Season,Current season,Nominal (Categorical),"Fall, Spring, Summer, Winter",Predictor 
+Day_of_Week,Day of the week,Nominal (Categorical),"Mon, Tue, Wed, etc.",Predictor 
+Units_in_Inventory,Units of product currently in inventory,Discrete (Count),"88, 263",Predictor 
+Online_Sales,If the product is also sold online (0/1),Binary (0/1),"0, 1",Predictor 
+Week_of_Year,Week number (chronological),Discrete (Ordinal),"4, 40, 52",Predictor 
+units_sold,Number of units sold (target variable),Discrete (Count),"84, 209, 239",Target (Response)
